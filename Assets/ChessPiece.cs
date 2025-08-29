@@ -7,6 +7,7 @@ public class ChessPiece : MonoBehaviour
 
     public Sprite[] sprites;
     
+    public GameObject[] GameObjects;
 
     public Image image;
 
@@ -53,6 +54,8 @@ public class ChessPiece : MonoBehaviour
                 break;
         }
     }
+
+
 
     private void OnDrawGizmosSelected()
     {
